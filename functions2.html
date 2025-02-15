@@ -7,8 +7,8 @@
 </head>
 <body>
      <script>
-        function calculateTax(income1) {
-            console.log(income1*0.1);
+        function calculateTax(amount, taxPercent = 0.1) {
+            console.log(amount * taxPercent);
         }
         calculateTax(20000);
         calculateTax(30000);
