@@ -50,5 +50,5 @@ Explore object-oriented programming concepts:
 Feel free to explore the code and use it as a reference for learning JavaScript fundamentals. Each file is thoroughly commented to explain the concepts in action.
 
 ---
-*Code without regrets image.png*
+*Code without regrets 🧑🏻‍💻*
 
