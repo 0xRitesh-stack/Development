@@ -51,4 +51,3 @@ Feel free to explore the code and use it as a reference for learning JavaScript 
 
 ---
 *Code without regrets 🧑🏻‍💻*
-
