@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const todoItem = document.createElement('div');
       todoItem.className = 'todo-item';
       todoItem.innerHTML = `
-        <span>${name}</span>
-        <span>Due: ${dueDate}</span>
+        <p>${name}</p>
+        <p>Due: ${dueDate}</p>
         <button class="delete-todo-button">Delete</button>
       `;
       todoList.appendChild(todoItem);
