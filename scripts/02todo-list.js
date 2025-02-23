@@ -18,13 +18,14 @@ function renderToDoList() {
     const todoObject = todoList[i];
     const { name, dueDate } = todoObject;
     const html = `
-      <p>
-        ${name}  ${dueDate}
-        <button onclick="
-          todoList.splice(${i}, 1);
-          renderToDoList();
-        ">Delete</button>
-      </p>`;
+    <div class="todo-item">
+      <div>${name}</div>
+      <div>${dueDate}</div>
+      <button onclick="
+        todoList.splice(${i}, 1);
+        renderToDoList();
+      ">Delete</button>
+    </div>`;
     todoListHtml += html;
   }
   console.log(todoListHtml);
